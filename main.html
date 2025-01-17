@@ -2,27 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>SHABAN-MD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      display: flex;
-      flex-direction: column; /* Stack items vertically */
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       margin: 0;
-      background-image: url("https://i.ibb.co/Jyxzr6f/temp-image.jpg"); /* Set the background image */
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black; /* Black bars on top and bottom */
+      color: black; /* Black text color */
+      font-weight: bold; /* Bold font */
+    }
+
+    .content-wrapper {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .background-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: auto;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      max-height: 100%;
+      max-width: 100%;
     }
 
     .btn {
-      --color: #FFC0CB;
-      --color2: rgb(10, 25, 30);
-      width: 200px; /* Set a fixed width for the buttons */
+      --color: black; /* Text color inside button */
+      --color2: white; /* Hover text color */
+      width: 200px;
       padding: 0.8em 1.75em;
-      background-color: transparent;
+      background-color: orange;
       border-radius: 6px;
       border: .3px solid var(--color);
       transition: .5s;
@@ -30,12 +48,12 @@
       overflow: hidden;
       cursor: pointer;
       z-index: 1;
-      font-weight: 900;
+      font-weight: bold; /* Bold text inside button */
       font-size: 17px;
       font-family: 'Roboto', 'Segoe UI', sans-serif;
       text-transform: uppercase;
       color: var(--color);
-      margin-bottom: 10px; /* Add margin to separate buttons */
+      margin-bottom: 24px;
     }
 
     .btn::after, .btn::before {
@@ -78,11 +96,17 @@
 </head>
 <body>
 
-  <button onclick="window.open(`/pair`)" class="btn">pair code</button>
-  <button onclick="window.open(`https://github.com/MRSHABAN40/SHABAN-SOBX-MD`)" class="btn">github</button>
-  <button onclick="window.open(`https://youtube.com/@mrshaban282?si=Mmp8uT0UZsRqvKnq`)" class="btn">youtube</button>
-  <button onclick="window.open(`https://wa.me/+923059395959`)" class="btn">contact</button>
-  <button onclick="window.open(`https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O`)" class="btn">whatsapp</button>
+  <div class="content-wrapper">
+    <img src="https://cdn.ironman.my.id/i/ccl6pv.jpg" alt="Background Image" class="background-image">
+    <div>
+      <button onclick="window.open(`/wasiqr`)" class="btn">𝙌𝙍 𝘾𝙊𝘿𝙀</button>
+      <button onclick="window.open(`/pair`)" class="btn">𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀</button>
+      <button onclick="window.open(`https://github.com/MRSHABAN40/SHABAN-SOBX-MD`)" class="btn">𝘽𝙊𝙏 𝙍𝙀𝙋𝙊</button>
+      <button onclick="window.open(`https://wa.me/message/L5NHEHHAQUQZF1?text=`)" class="btn">𝙈𝙍 𝙎𝙃𝘼𝘽𝘼𝙉 𝙈𝙔 𝙉𝙐𝙈𝘽𝙀𝙍</button>
+      <button onclick="window.open(`https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O`)" class="btn">𝙒𝘼 𝘾𝙃𝘼𝙉𝙉𝙀𝙇😎</button>
+      <button onclick="window.open(`https://github.com/MRSHABAN40`)" class="btn">𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙔 𝙂𝙄𝙏𝙃𝙐𝘽</button>
+    </div>
+  </div>
 
 </body>
 </html>
