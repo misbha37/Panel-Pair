@@ -1,1 +1,1 @@
-# Panel-Pair
+# PRIME-PAIR
