@@ -77,11 +77,11 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "SHABAN-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there SHABAN SOBX MD User! 🤠* 
+                        let desc = `*Hello there SHABAN MD User! 🤠* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using SHABAN-SOBX-MD 😍* 
+ *Thanks for using SHABAN-MD 😍* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,7 +89,7 @@ https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/MRSHABAN40/ SHABAN-MD-V5
+https://github.com/MRSHABAN40/SHABAN-MD-V5
 
 > *© POWERED BY MR-SHABAN 🚀*`; 
                         await sock.sendMessage(sock.user.id, {
@@ -97,7 +97,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝐒𝐡𝐚𝐛𝐚𝐧𝐒𝐨𝐛𝐱𝐌𝐝",
-thumbnailUrl: "https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg",
+thumbnailUrl: "https://i.ibb.co/HTppwqhV/shaban-md.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -107,13 +107,13 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy 𝐒𝐇𝐀𝐁𝐀𝐍-𝐌𝐃*\n\n ◦ *Github:* https://github.com/MRSHABAN40/ SHABAN-MD-V5`;
+                            let desc = `*Don't Share with anyone this code use for deploy 𝐒𝐇𝐀𝐁𝐀𝐍-𝐌𝐃*\n\n ◦ *Github:* https://github.com/MRSHABAN40/SHABAN-MD-V5`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝐒𝐡𝐚𝐛𝐚𝐧𝐒𝐨𝐛𝐱𝐌𝐝",
-thumbnailUrl: "https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg",
+title: "𝐒𝐡𝐚𝐛𝐚𝐧𝐌𝐝",
+thumbnailUrl: "https://i.ibb.co/HTppwqhV/shaban-md.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O",
 mediaType: 2,
 renderLargerThumbnail: true,
