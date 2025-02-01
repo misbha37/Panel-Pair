@@ -70,7 +70,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "SHABAN-SOBX-MD~" + string_session;
+                        let md = "SHABAN-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there SHABAN MD User! 🤠* 
 
@@ -84,7 +84,7 @@ https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/MRSHABAN40/SHABAN-SOBX-MD 
+https://github.com/MRSHABAN40/ SHABAN-MD-V5 
 
 > *© Powered BY MR-SHABAN*`;
                         await sock.sendMessage(sock.user.id, {
@@ -114,7 +114,7 @@ https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/MRSHABAN40/SHABAN-SOBX-MD 
+https://github.com/MRSHABAN40/ SHABAN-MD-V5 
 
 > *© Powered BY MR-SHABAN*`;
                             await sock.sendMessage(sock.user.id, {
