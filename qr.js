@@ -76,7 +76,7 @@ var randomItem = selectRandomItem(items);
 
 > Do not share your session id with anyone.
 
- *Thanks for using SHABAN-SOBX-MD* 
+ *Thanks for using SHABAN-MD* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -102,7 +102,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there SHABAN XMD User! 👋🏻* 
+                            let desc = `*Hello there SHABAN MD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
@@ -156,5 +156,5 @@ showAdAttribution: true
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
     process.exit();
-}, 180000); //30min
+}, 180000); //1440min
 module.exports = router;
